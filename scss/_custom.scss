@@ -1,0 +1,280 @@
+
+// PRIMARY COLOR
+
+$primary: #2196f3;
+
+// SUCCESS Color
+
+$success: #46d5b5;
+
+
+// WHITE GRAY BLACK
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+// GRAY COLORS
+
+$light-gray: $gray-500;
+$dark-gray: $gray-600;
+
+// TYPOGRAPHY
+
+$small-text: 10px;
+$medium-text: 14px;
+$large-text: 16px;
+
+// ANIMATIONS
+
+@keyframes radio-check {
+     0% { 
+          background-image: radial-gradient($success 0%, $white);
+    }
+     5% {
+          background-image: radial-gradient($success 5%, $white);
+    }
+     10% {
+          background-image: radial-gradient($success 10%, $white);
+    }
+     15% {
+          background-image: radial-gradient($success 15%, $white);
+     }
+     20% {
+          background-image: radial-gradient($success 20%, $white);
+     }
+     25% {
+          background-image: radial-gradient($success 25%, $white);
+     }
+     30% {
+          background-image: radial-gradient($success 30%, $white);
+     }
+     35% {
+          background-image: radial-gradient($success 35%, $white);
+     }
+     40% {
+          background-image: radial-gradient($success 40%, $white);
+     }
+     45% {
+          background-image: radial-gradient($success 45%, $white);
+     }
+     50% {
+          background-image: radial-gradient($success 50%, $white);
+     }
+     55% {
+          background-image: radial-gradient($success 55%, $white);
+     }
+     60% {
+          background-image: radial-gradient($success 60%, $white);
+     }
+     65% {
+          background-image: radial-gradient($success 65%, $white);
+     }
+     70% {
+          background-image: radial-gradient($success 70%, $white);
+     }
+     75% {
+          background-image: radial-gradient($success 75%, $white);
+     }
+     80% {
+          background-image: radial-gradient($success 80%, $white);
+     }
+     85% {
+          background-image: radial-gradient($success 85%, $white);
+     }
+     90% {
+          background-image: radial-gradient($success 90%, $white);
+     }
+     95% { 
+          background-image: radial-gradient($success 95%, $white );
+     }
+     100% {
+          background-image: radial-gradient($success 100%, $white);
+     }
+  }
+
+  @keyframes input-underline {
+     0% { 
+          width: 0%;
+     }
+     80% {
+          width: 100%;
+     }
+     100% { 
+          
+          width: 95%;
+      }
+   }
+
+   @keyframes checkbox-blue {
+     0% { 
+          background-image: radial-gradient($primary -4000%, $white 100%);
+    }
+     5% {
+          background-image: radial-gradient($primary 5%, $white);
+    }
+     10% {
+          background-image: radial-gradient($primary 10%, $white);
+    }
+     15% {
+          background-image: radial-gradient($primary 15%, $white);
+     }
+     20% {
+          background-image: radial-gradient($primary 20%, $white);
+     }
+     25% {
+          background-image: radial-gradient($primary 25%, $white);
+     }
+     30% {
+          background-image: radial-gradient($primary 30%, $white);
+     }
+     35% {
+          background-image: radial-gradient($primary 35%, $white);
+     }
+     40% {
+          background-image: radial-gradient($primary 40%, $white);
+     }
+     45% {
+          background-image: radial-gradient($primary 45%, $white);
+     }
+     50% {
+          background-image: radial-gradient($primary 50%, $white);
+     }
+     55% {
+          background-image: radial-gradient($primary 55%, $white);
+     }
+     60% {
+          background-image: radial-gradient($primary 60%, $white);
+     }
+     65% {
+          background-image: radial-gradient($primary 65%, $white);
+     }
+     70% {
+          background-image: radial-gradient($primary 70%, $white);
+     }
+     75% {
+          background-image: radial-gradient($primary 75%, $white);
+     }
+     80% {
+          background-image: radial-gradient($primary 80%, $white);
+     }
+     85% {
+          background-image: radial-gradient($primary 85%, $white);
+     }
+     90% {
+          background-image: radial-gradient($primary 90%, $white);
+     }
+     95% { 
+          background-image: radial-gradient($primary 95%, $white );
+     }
+     100% {
+          background-image: radial-gradient($primary 100%, $white);
+     }
+   }
+
+   @keyframes checkbox-white {
+     0% { 
+          background-image: radial-gradient($white -4000%, $primary 100%);
+    }
+     5% {
+          background-image: radial-gradient($white 5%, $primary);
+    }
+     10% {
+          background-image: radial-gradient($white 10%, $primary);
+    }
+     15% {
+          background-image: radial-gradient($white 15%, $primary);
+     }
+     20% {
+          background-image: radial-gradient($white 20%, $primary);
+     }
+     25% {
+          background-image: radial-gradient($white 25%, $primary);
+     }
+     30% {
+          background-image: radial-gradient($white 30%, $primary);
+     }
+     35% {
+          background-image: radial-gradient($white 35%, $primary);
+     }
+     40% {
+          background-image: radial-gradient($white 40%, $primary);
+     }
+     45% {
+          background-image: radial-gradient($white 45%, $primary);
+     }
+     50% {
+          background-image: radial-gradient($white 50%, $primary);
+     }
+     55% {
+          background-image: radial-gradient($white 55%, $primary);
+     }
+     60% {
+          background-image: radial-gradient($white 60%, $primary);
+     }
+     65% {
+          background-image: radial-gradient($white 65%, $primary);
+     }
+     70% {
+          background-image: radial-gradient($white 70%, $primary);
+     }
+     75% {
+          background-image: radial-gradient($white 75%, $primary);
+     }
+     80% {
+          background-image: radial-gradient($white 80%, $primary);
+     }
+     85% {
+          background-image: radial-gradient($white 85%, $primary);
+     }
+     90% {
+          background-image: radial-gradient($white 90%, $primary);
+     }
+     95% { 
+          background-image: radial-gradient($white 95%, $primary );
+     }
+     100% {
+          background-image: radial-gradient($white 100%, $primary);
+     }
+   }
+
+   @keyframes progress-bar {
+          0% {
+               border-top: none; 
+          }
+          25% {
+               border-top: 1px solid $white;
+          }
+          50% {
+               border-top: 2px solid $white;
+               border-right: 2px solid $white;
+          }
+          75% {
+               border-top: 3px solid $white;
+               border-right: 3px solid $white;
+               border-bottom: 3px solid $white;
+          }
+          100% {
+               border-top: 3px solid $white;
+               border-right: 3px solid $white;
+               border-bottom: 3px solid $white;
+               border-left: 3px solid $white;
+          }
+   } 
+
+// IMPORT BOOTSTRAP 5
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+
+

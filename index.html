@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='css/fontawesome.css'>
+</head>
+<body>
+    <header>
+        <div class='container flex-row'>
+            <div class='progress-bar'><span>0%</span></div>
+            <div class="header-text">
+                <h2>New York State</h2>
+                <h1>Request for Contact</h1>
+            </div>
+        </div>
+    </header>
+        <div class='container body-flex'>
+            <form class="form form-group">
+                <div class='flex-row'>
+                    <div class='checkbox'><span>1</span></div>
+                    <div class='input-content'>
+                        <label >First Name</label><br>
+                        <input type='text' required>
+                    </div>
+                </div>
+                <div class='flex-row'>
+                    <div class='checkbox'><span>2</span></div>
+                    <div class='input-content'>
+                        <label>Last Name</label><br>
+                        <input type='text' required>
+                    </div>
+                </div>
+                <div class='flex-row'>
+                    <div class='checkbox'><span>3</span></div>
+                    <div class='input-content'>
+                        <label>Email Address</label><br>
+                        <input type='email' required>
+                    </div>
+                </div>
+                <div class='flex-row'>
+                    <div class='checkbox'><span>4</span></div>
+                    <div class='input-content'>
+                        <p>What is the best time to contact you?</p>
+                    </div>
+                </div>
+                <div class='radio-div'>
+
+                    <label class="radio">
+                    <span class="radio-input">
+                        <input type='radio' 
+                               id='monday' 
+                               name='contact-time' 
+                               value='monday'
+                               required>
+                        <span class="radio-control">
+                            <i class="fas fa-check"></i>
+                        </span>
+                    </span>
+                    <span class="radio-label">Monday 3pm</span>
+                    </label>
+
+                    <label class="radio">
+                    <span class="radio-input">
+                        <input type='radio' 
+                               id='tuesday' 
+                               name='contact-time' 
+                               value='tuesday'>
+                        <span class="radio-control">
+                            <i class="fas fa-check"></i>
+                        </span>
+                    </span>
+                    <span class="radio-label">Tuesday 3pm</span>
+                    </label>
+
+                    <label class="radio">
+                    <span class="radio-input">
+                        <input type='radio' 
+                               id='wednesday' 
+                               name='contact-time' 
+                               value='wednesday'>
+                        <span class="radio-control">
+                            <i class="fas fa-check"></i>
+                        </span>
+                    </span>
+                    <span class="radio-label">Wednesday 3pm</span>
+                    </label>
+
+                    <label class="radio">
+                    <span class="radio-input">
+                        <input type='radio' 
+                               id='thursday' 
+                               name='contact-time' 
+                               value='thursday'>
+                        <span class="radio-control">
+                            <i class="fas fa-check"></i>
+                        </span>
+                    </span>
+                    <span class="radio-label">Thursday 3pm</span>
+                    </label>
+
+                    <label class="radio">
+                    <span class="radio-input">
+                        <input type='radio' 
+                               id='friday' 
+                               name='contact-time' 
+                               value='friday'>
+                        <span class="radio-control">
+                            <i class="fas fa-check"></i>
+                        </span>
+                    </span>
+                    <span class="radio-label">Friday 3pm</span>
+                    </label>
+                    
+                </div>
+                <br><input type='submit' value='Submit'>
+
+            </form>
+        </div>
+    </header>
+
+    <script src='main.js'></script>
+</body>
+</html>
